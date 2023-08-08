@@ -1,0 +1,50 @@
+.header {
+  background: black;
+  padding: 12px 20px;
+  border-radius: 47px;
+}
+.header_title {
+  position: relative;
+  font-family: PTSans, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 1.3px;
+  padding-left: 40px;
+  text-decoration: none;
+}
+.header_title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../../images/futureSphere.svg) no-repeat center;
+  background-size: contain;
+  width: 35px;
+  height: 27px;
+  top: 0;
+  left: 0;
+}
+.header_list {
+  font-size: 16px;
+  margin-right: 10%;
+  font-family: Manrore, sans-serif;
+}
+.header_list a,
+.header_list a:hover,
+.header_list a:active {
+  text-decoration: none;
+  color: white;
+}
+.header_button {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  background: #7F56D9;
+  border-radius: 20px;
+  padding: 8px 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.css.map */

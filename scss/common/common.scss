@@ -1,0 +1,39 @@
+body {
+  background: #EFF0F6;
+}
+
+.container {
+  max-width: $content-width;
+  margin: 0 auto;
+
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+.jc-center {
+  justify-content: center;
+
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.white {
+  color: white;
+}
+
+
+
+
+

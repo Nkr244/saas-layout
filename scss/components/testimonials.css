@@ -1,0 +1,12 @@
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testimonials_left_block {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=testimonials.css.map */

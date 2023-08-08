@@ -1,0 +1,75 @@
+.our_mission{
+  background: white;
+  max-width: 100%;
+  border-radius: 32px;
+  margin-top: 100px;
+}
+.our_blocks{
+  display: flex;
+  padding: 40px 20px;
+}
+.our_title{
+  color: #7F56D9;
+  background: #E9D8FFFF;
+  border: 1px solid #EEE2FE;
+  border-radius: 22px;
+  box-sizing: border-box;
+  width: 85px;
+  height: 30px;
+  font-family: Manrope,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 5px 15px;
+  text-align: center;
+  letter-spacing: -0.75px;
+
+}
+.our_mission h2{
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  letter-spacing: -1px;
+  margin-top: 20px
+}
+.our_mission p{
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: gray;
+
+  text-align: left;
+  letter-spacing: -0.75px;
+}
+.our_block_right{
+  text-align: center;
+
+
+}
+.our_block_left{
+  margin-top: 20px;
+}
+.our_button{
+  margin-top: 38px;
+  @extend %extend-btn;
+}
+.ex_button{
+  background: white;
+  color: #7F56D9;
+  padding: 0 15px 0 0;
+}
+
+.our_block_right img{
+  border-radius: 32px;
+  max-width: 400px;
+  height: auto;
+
+}
+
+
