@@ -25,9 +25,14 @@
 }
 .client_block{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
+  object-fit: contain;
+
 }
+
 .client_block image{
-  width: 300px;
+
 }

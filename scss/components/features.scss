@@ -87,37 +87,29 @@
 .features-block{
   position: relative;
   z-index: 1;
+  width: 100%;
 }
-.features-block:before{
-  display: block;
-position: absolute;
-  content: '';
-  background: url("../../images/blur-circule.svg") no-repeat center;
-  top: -10px;
-  left: 0;
-  background-size: contain;
-  width: 365px;
-  height: 200px;
-  z-index: -1;
-  margin: 0 auto;
-  max-width: 100%;
-}
+
 .line-features{
   position: relative;
+
 }
-.line-features:after{
+.features-block:after{
   display: block;
   position: absolute;
   content: '';
-  background: url("../../images/line-features.svg") no-repeat center;
-  top: 0;
-  left: 0;
-  margin-top: 20px;
-  padding-right:570px;
+  background: url("../../images/line-features.svg") no-repeat right;
+
   background-size: contain;
-  width: 2px;
   height: 200px;
-  max-width: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+
+}
+.features-block:last-child:after{
+  display: none;
 }
 .features_button{
   @extend %extend-btn;

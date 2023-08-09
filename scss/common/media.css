@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) and (max-width: 1270px) {
+  .container {
+    margin: 0 38px 0px 38px;
+  }
+  .service {
+    display: none;
+  }
+  .features-block:last-child {
+    display: none;
+  }
+  .line-features:before {
+    display: none;
+  }
+  .features-block {
+    flex-basis: 50%;
+  }
+  .trusted_line img {
+    width: 50%;
+  }
+  .blog_block:last-child {
+    display: none;
+  }
+  .our_blocks {
+    flex-direction: column;
+  }
+  .our_title {
+    order: 1;
+  }
+  .our_block_right {
+    order: 2;
+  }
+  .our_block_left {
+    order: 3;
+  }
+  .testimonials_bloks {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
